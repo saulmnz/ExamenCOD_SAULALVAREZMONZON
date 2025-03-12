@@ -63,3 +63,25 @@ git commit -m "Nombre del commit"
 git push  
 
 ```
+
+## ELIMINAMOS COMMITS
+```bash
+# REALIZAREMOS UN REVERT DEL ULTIMO COMMIT CUANDO ACTUALICE EL README
+ 
+git log --oneline  # PARA VER LOS HASH DE LOS COMMITS
+
+git revert (HASH)
+
+// ABRIRÁ EL FICHERO EDITOR DE TEXTO
+
+# REALIZAMOS PUSH
+
+git push origin main
+
+# TAMBIEN PODEMOS HACER UN GIT RESET SI EL COMMIT NO FUE SUBIDO AL REMOTO
+
+git reset --hard (HASH)
+git push --force origin readme
+
+
+```
