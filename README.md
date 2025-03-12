@@ -24,8 +24,9 @@ git checkout -b readme
 
 <BR>
 
-- FUSIONAMOS LAS RAMAS : La rama readme es la unica que no vamos a fusionar siguiendo el enunciado así que realizaremos lo que se nos pide ->
+## EL SIGUIENTE PASO CONTIENE LOS TAGS ( LA VERSION Y MERGE ) 
 
+- FUSIONAMOS LAS RAMAS : La rama readme es la unica que no vamos a fusionar siguiendo el enunciado así que realizaremos lo que se nos pide :
 ```bash
 git checkout main # PARA CAMBIAR A LA RAMA MAIN DESDE DONDE TENEMOS QUE REALIAZAR LOS MERGE
 git merge datos # REALIZAMOS EL MERGE DE LA RAMA DATOS A LA MAIN
@@ -46,3 +47,5 @@ git tag v1.0 -m "Version 1.0"
 git push origin main
 git push origin v1.0
 ``` 
+
+
