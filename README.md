@@ -85,5 +85,3 @@ git push --force origin readme
 
 
 ```
-
-"Para borrarlo con el reset"
